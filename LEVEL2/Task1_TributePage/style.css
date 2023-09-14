@@ -1,0 +1,82 @@
+body {
+  background-color: #EEEEECff;
+  margin: 1rem;
+  padding: 3.5rem;
+  color: rgb(67, 43, 6);
+}
+
+.title{
+  font-size: 8rem;
+  font-weight: bold;
+  margin-top: 0rem;
+  color: rgb(67, 43, 6);
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+  font-style: oblique;
+}
+ 
+div#tribute-data {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  padding: 25px 25px;
+  background-image: url("./elon-musk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1.title-musk{
+  font-size: 2.5rem;
+  color:  #C0977Dff;
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+  font-style: oblique;
+}
+
+#lifeofelon{
+  color: rgb(232, 232, 239);
+  text-align: justify;
+  text-shadow: 5px 5px 5px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width:480px){
+  body {
+    margin: 0.25rem;
+    padding: 1.5rem;
+  }
+  
+  .title{
+    font-size: 1.85rem;
+  }
+   
+  div#tribute-data {
+    padding: 20px 20px;
+    background-size: contain;
+  }
+  
+  
+  h1.title-musk{
+    margin-top: 20.5rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-shadow: 5px 5px 20px black;
+  }
+  
+  .p-musk{ 
+    font-size: 0.7rem;
+    line-height: 1.25rem;
+    margin-bottom: 0rem;
+  }
+
+  #lifeofelon{
+    margin-top: 0rem;
+    color: rgb(67, 43, 6);
+    font-size: 0.85rem;
+    line-height: 1rem;
+    text-align: center;
+    text-shadow: 5px 5px 20px black;
+  }  
+}
